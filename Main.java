@@ -1,11 +1,9 @@
 public class Main{
+    private static final double r=7.5;
     public static void main(String[]args){
-        final double Math.Pi=22/7;
-        float r=7.5f;
-        System.out.println("Radious of the circle is:"+r);
-        double area=Pi*(r*r);
-        System.out.println("Area is:"+area);
-        double cir=2*Pi*r;
-        System.out.println("Circumference is:"+cir);
+        double cir=2*Math.PI*r;
+        System.out.println("Perimeter of the circle is:"+cir);
+        double area=Math.PI*(r*r);
+        System.out.println("Area of circle is:"+area);
     }
 }
