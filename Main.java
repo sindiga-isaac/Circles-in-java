@@ -5,6 +5,5 @@ public class Main{
         System.out.println("Perimeter of the circle is:"+cir);
         double area=Math.PI*(r*r);
         System.out.println("Area of circle is:"+area);
-       
-    }
+       }
 }
