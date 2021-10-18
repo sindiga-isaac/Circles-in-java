@@ -4,6 +4,6 @@ public class Main{
         double cir=2*Math.PI*r;
         System.out.println("Perimeter of the circle is:"+cir);
         double area=Math.PI*(r*r);
-        System.out.println("Area of circle is:"+area);
+        System.out.println("Area of circle is:"+area)
        }
 }
